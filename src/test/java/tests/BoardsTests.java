@@ -67,10 +67,10 @@ public class BoardsTests extends TestBase implements HelperBoards, HelperLogin {
         deleteBoard();
     }
 
-//    @AfterMethod
-//    public void afterTest(){
-//        clickButtonBoards();
-//    }
+    @AfterMethod
+    public void afterTest(){
+        clickButtonBoards();
+    }
 
 
 
